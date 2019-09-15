@@ -1,0 +1,134 @@
+html {
+    box-sizing: border-box;
+  }
+  
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background: rgb(19, 102, 211);
+    color: #323232;
+    line-height: 1.5;
+  }
+
+.container {
+    max-width: 1060px;
+    margin: 20px auto;
+    padding: 12px;
+    background: white;
+    box-shadow: 0 1px 10px rgb(0, 0, 0);
+  }
+  
+.profile-photo{
+    width:180px;
+    height:180px;
+    border-radius: 10%;
+    border: 10px;
+    border-color: #000000;
+    box-shadow: 0 1px 40px rgb(79, 98, 207);
+}
+
+.heading{
+    padding-left: 18%;
+    padding-top: 10px   
+}
+.head-item{
+    align-content: center;
+    display: inline-block;
+    padding-right: 10%
+}
+
+.contact-info{
+    font-size: 15px;
+    font-weight: bold
+}
+
+.my-name {
+    font-size: 38px;
+  }
+
+.my-title {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(79, 98, 207);
+  }
+
+.my-desc{
+    font-size: 20px;
+    padding-left: 25px;
+    padding-top: 25px;
+    font-weight: 100;
+    padding-bottom:20px
+}
+
+hr{
+    border-top: 3px dotted grey;
+    margin-top: 5px
+}
+
+.invis-hr{
+    border-top: 3px dotted rgba(128, 128, 128, 0);
+    margin-top: 5px
+}
+
+.education{
+    padding-left:40px;
+    padding-right:40px
+}
+
+.education-title{
+    padding: 20px; 
+}
+
+.education-row{
+    display: flex;
+    justify-content: space-between;
+    border: 10px;
+    border-color: #000000;
+    box-shadow: 0 2px 10px rgb(0, 0, 0);
+    padding:20px;
+    margin-bottom: 15px
+}
+
+.degree-name{
+    font-size: 26px;
+    font-weight: bold;
+    color: rgb(79, 98, 207);
+
+}
+
+.degree-location{
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+.degree-duration{
+    justify-content: space-between;
+    font-size:22px;
+    font-weight: bold  
+}
+
+.lis{
+    display: inline-block
+}
+
+.tech-row{
+    display: inline-block;
+    text-align: center;
+    justify-content: space-between;
+    border: 10px;
+    border-color: #000000;
+    box-shadow: 0 2px 20px rgb(0, 0, 0);
+    padding:20px;
+    margin: 15px
+}
+
+
+.project-row{
+    display: inline-block;
+    text-align: center;
+    justify-content: space-between;
+    border: 10px;
+    border-color: #000000;
+    box-shadow: 0 2px 10px rgb(0, 0, 0);
+    padding:20px;
+    margin-bottom: 15px
+}
